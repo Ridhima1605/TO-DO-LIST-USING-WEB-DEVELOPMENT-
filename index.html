@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🎉 Fun To-Do List</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="theme-toggle" onclick="toggleTheme()">🌓</div>
+  <div class="container">
+    <h1>🎉 My Fun To-Do List</h1>
+
+    <div class="input-section">
+      <input type="text" id="task-input" placeholder="Add a fun task..." />
+      <button onclick="addTask()">➕</button>
+    </div>
+
+    <div class="filter-section">
+      <button onclick="filterTasks('all')">All</button>
+      <button onclick="filterTasks('active')">Active</button>
+      <button onclick="filterTasks('completed')">Completed</button>
+    </div>
+
+    <ul id="task-list"></ul>
+    <button class="clear-btn" onclick="clearAll()">🗑️ Clear All</button>
+  </div>
+
+  <canvas id="confetti"></canvas>
+  <div id="toast"></div>
+  <script src="script.js"></script>
+</body>
+</html>
