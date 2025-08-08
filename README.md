@@ -19,15 +19,6 @@ A fun, interactive, and beautifully animated To-Do List web app made with **HTML
 
 ---
 
-## 📸 Screenshots
-
-### 🕹 Light Theme
-<img src="https://i.imgur.com/1mKe75R.png" width="600"/>
-
-### 🌙 Dark Theme + Confetti
-<img src="https://i.imgur.com/KNkWlWg.png" width="600"/>
-
----
 
 ## 🚀 Live Demo
 
